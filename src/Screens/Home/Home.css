@@ -1,0 +1,76 @@
+.Home {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(../../assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Description {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Des-Home {
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    margin-top: 10rem;
+    margin-right: 5rem;
+}
+
+.Des-head {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.Des-mid {
+    font-size: 120px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.Des-note {
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    font-weight: 400;
+    color: white;
+}
+
+.Explore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60vh;
+    width: 40vw;
+    margin-top: 10rem;
+}
+
+.Explore-btn {
+    width: 15vw;
+    height: 30vh;
+    border: none;
+    background-color: white;
+    border-radius: 110px;
+    margin-bottom: 3rem;
+    font-size: 25px;
+}
+
+.Explore-btn:hover {
+    transition: box-shadow 0.5s ease-in;
+    box-shadow: 0 0 30px 10px white;
+}

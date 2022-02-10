@@ -1,0 +1,110 @@
+.Destination {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(../../assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Planets {
+    width: 100vw;
+    height: 70vh;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.Images {
+    height: 70vh;
+    width: 50vw;
+}
+
+.Images>img {
+    margin-top: 5rem;
+    height: 50vh;
+    width: 25vw;
+}
+
+.Images>img {
+    animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.Title-head {
+    height: 5vh;
+    width: 35vw;
+    font-size: 25px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-decoration-line: none;
+    display: inline-flex;
+    position: relative;
+}
+
+.Details {
+    height: 60vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+}
+
+.Details-title {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+
+.Details-line {
+    width: 30vw;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2rem;
+}
+
+.Details-span {
+    color: white;
+    font-size: 15px;
+}
+
+.Details-name {
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.Details-end-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.Details-end-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}

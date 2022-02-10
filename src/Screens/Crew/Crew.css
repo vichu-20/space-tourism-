@@ -1,0 +1,82 @@
+.Crew {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(../../assets/crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Crew-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80.5vh;
+    width: 100vw;
+}
+
+.Crew-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    height: 75vh;
+    width: 30vw;
+    margin-left: 10rem;
+}
+
+.Crew-image {
+    height: 70vh;
+    width: 40vw;
+    margin-top: 6rem;
+}
+
+.Crew-image>img {
+    height: 70vh;
+    width: 25vw;
+}
+
+.Div-title {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.Crew-post {
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+.Crew-name {
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.Crew-des {
+    font-size: 15px;
+    color: white;
+    max-width: 90%;
+    margin-top: 3rem;
+}
+
+.Scroll {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5vh;
+    width: 15vw;
+    margin-top: 3rem;
+}
+
+.Round {
+    height: 3vh;
+    width: 3vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}

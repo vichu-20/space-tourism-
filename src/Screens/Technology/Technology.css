@@ -1,0 +1,102 @@
+.Technology {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(../../assets/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Tech-title {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    height: 5vh;
+    width: 30vw;
+    font-size: 30px;
+    color: white;
+}
+
+.Tech-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 75vh;
+    width: 100vw;
+}
+
+.Tech-select {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10vw;
+    height: 50vh;
+    margin-top: 4rem;
+}
+
+.Select {
+    width: 10vh;
+    height: 10vh;
+    background-color: aliceblue;
+    border: solid 1px white;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+.Tech-details {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: space-between;
+    height: 50vh;
+    width: 40vw;
+    margin-top: 2rem;
+}
+
+.Tech-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 70vh;
+    width: 40vw;
+    margin-left: 8rem
+}
+
+.Tech-images>img {
+    height: 60vh;
+    width: 25vw;
+}
+
+.Details-title {
+    height: 10vh;
+    width: 35vw;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.Details-heading {
+    height: 15vh;
+    width: 35vw;
+    font-size: 50px;
+    color: white;
+    margin-left: 1rem;
+}
+
+.Details {
+    text-align: start;
+    height: 40vh;
+    width: 35vw;
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+@media (max-width:600px) {}
