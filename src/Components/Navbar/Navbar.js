@@ -18,7 +18,7 @@ function Navbar() {
   return (
   <div className='Navbar'> 
     <div className='Icon'>
-      <img src={icon}/>
+      <img className='Nav-img' src={icon}/>
       </div>
       <div className='Line'></div>
       <div className='Blured'>
@@ -34,10 +34,10 @@ function Navbar() {
       visibility && (<div className='Burger-menu'>
       <img onClick={() =>setVisibility(false)} className='Close' src={Close} />
       <div>
-        <Link to ={'/'} className='Burger-items'> Home</Link>
-        <Link to ={'Destination'}className='Burger-items'> Destination</Link>
-        <Link to ={'/Crew'}className='Burger-items'>Crew</Link>
-        <Link to ={'/Technology'}className='Burger-items'>Technology</Link>
+        <Link to ={'/'} className='Burger-items'>00 Home</Link>
+        <Link to ={'Destination'}className='Burger-items'>01 Destination</Link>
+        <Link to ={'/Crew'}className='Burger-items'>02 Crew</Link>
+        <Link to ={'/Technology'}className='Burger-items'>03 Technology</Link>
       </div>
     </div>)
 

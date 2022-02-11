@@ -15,7 +15,9 @@ function Home() {
         </a>
       </div>
       <div className='Explore'>
-        <button className='Explore-btn'>EXPLORE</button>
+        <button className='Explore-btn'>
+          <span className='Explore-text'>EXPLORE</span>
+          </button>
       </div>
     </div>
   </div>);
